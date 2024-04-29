@@ -10,15 +10,16 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-from pathlib import Path
 import os
+from pathlib import Path
+
 
 if os.path.exists('env.py'):
     import env
 
 CLOUDINARY_STORAGE = {'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')}
 
-MEDIA_URL = '/media'
+MEDIA_URL = '/media/'
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
@@ -35,7 +36,7 @@ SECRET_KEY = 'django-insecure-!n-dj7vz-yf09e0hufe=csqt2uw-r5&v9tegp#b-0z4iu3nsc#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu110.gitpod.io']
 
 
 # Application definition
@@ -49,6 +50,8 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+
+    'profiles',
 ]
 
 MIDDLEWARE = [
