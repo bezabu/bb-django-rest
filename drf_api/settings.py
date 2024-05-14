@@ -38,6 +38,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu111.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu111.gitpod.io']
 
 # Application definition
 
@@ -51,7 +52,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
-    
+    'django_filters',
+
     'profiles',
     'posts',
     'comments',
