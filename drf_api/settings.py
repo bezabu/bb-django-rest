@@ -64,7 +64,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu114.gitpod.io', 'bezabu-drf-api.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu114.gitpod.io', 'bezabu-drf-api.herokuapp.com', 'bezabu-drf-api-f2959062e96d.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu111.gitpod.io']
 
