@@ -85,6 +85,16 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
 
 CORS_ALLOW_CREDENTIALS = True
 
+CORS_ORIGIN_ALLOW_ALL=True
+
+#CORS_ORIGIN_WHITELIST = [
+#    'http://google.com',
+#    'http://hostname.example.com',
+#    'http://localhost:8000',
+#    'http://127.0.0.1:9000'
+#]
+
+
 # CSRF_TRUSTED_ORIGINS = ['https://8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu114.gitpod.io/', 'https://3000-bezabu-bbgpmoments-96oo6r5i0vx.ws-eu114.gitpod.io/']
 
 # Application definition
