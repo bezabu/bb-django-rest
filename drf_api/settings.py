@@ -71,7 +71,7 @@ ALLOWED_HOSTS = [
    'localhost',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu114.gitpod.io/']
+CSRF_TRUSTED_ORIGINS = ['https://8000-bezabu-bbdjangorest-8w1vvn6t7uv.ws-eu114.gitpod.io/', 'https://3000-bezabu-bbgpmoments-96oo6r5i0vx.ws-eu114.gitpod.io/']
 
 # Application definition
 
